@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C375F85A2A6936FE00C8EDF6 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C375F8592A6936FE00C8EDF6 /* TestApp.swift */; };
+		A517C54B6C7044A52DF81515 /* Pods_VideoCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE295A81E9E0A27ACDDEDF8 /* Pods_VideoCamera.framework */; };
+		C31433AA2E34D4520007A5CC /* RTSPPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31433A92E34D4520007A5CC /* RTSPPlayerView.swift */; };
+		C375F85A2A6936FE00C8EDF6 /* VideoCameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C375F8592A6936FE00C8EDF6 /* VideoCameraApp.swift */; };
 		C375F85C2A6936FE00C8EDF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C375F85B2A6936FE00C8EDF6 /* ContentView.swift */; };
 		C375F85E2A69370000C8EDF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C375F85D2A69370000C8EDF6 /* Assets.xcassets */; };
 		C375F8612A69370000C8EDF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C375F8602A69370000C8EDF6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C375F8562A6936FE00C8EDF6 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C375F8592A6936FE00C8EDF6 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
+		51C19E13E633AAC3E36C8D4C /* Pods-VideoCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCamera.debug.xcconfig"; path = "Target Support Files/Pods-VideoCamera/Pods-VideoCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		602C02A503A8FA2A34A5823B /* Pods-VideoCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCamera.release.xcconfig"; path = "Target Support Files/Pods-VideoCamera/Pods-VideoCamera.release.xcconfig"; sourceTree = "<group>"; };
+		BDE295A81E9E0A27ACDDEDF8 /* Pods_VideoCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31433A92E34D4520007A5CC /* RTSPPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTSPPlayerView.swift; sourceTree = "<group>"; };
+		C375F8562A6936FE00C8EDF6 /* VideoCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C375F8592A6936FE00C8EDF6 /* VideoCameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCameraApp.swift; sourceTree = "<group>"; };
 		C375F85B2A6936FE00C8EDF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C375F85D2A69370000C8EDF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C375F8602A69370000C8EDF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -26,37 +32,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A517C54B6C7044A52DF81515 /* Pods_VideoCamera.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B03BAD32E8B5786A8D80664B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDE295A81E9E0A27ACDDEDF8 /* Pods_VideoCamera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C375F84D2A6936FE00C8EDF6 = {
 			isa = PBXGroup;
 			children = (
-				C375F8582A6936FE00C8EDF6 /* Test */,
+				C375F8582A6936FE00C8EDF6 /* VideoCamera */,
 				C375F8572A6936FE00C8EDF6 /* Products */,
+				D21467B284021471E0A682BD /* Pods */,
+				B03BAD32E8B5786A8D80664B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C375F8572A6936FE00C8EDF6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C375F8562A6936FE00C8EDF6 /* Test.app */,
+				C375F8562A6936FE00C8EDF6 /* VideoCamera.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C375F8582A6936FE00C8EDF6 /* Test */ = {
+		C375F8582A6936FE00C8EDF6 /* VideoCamera */ = {
 			isa = PBXGroup;
 			children = (
-				C375F8592A6936FE00C8EDF6 /* TestApp.swift */,
+				C375F8592A6936FE00C8EDF6 /* VideoCameraApp.swift */,
 				C375F85B2A6936FE00C8EDF6 /* ContentView.swift */,
 				C375F85D2A69370000C8EDF6 /* Assets.xcassets */,
 				C375F85F2A69370000C8EDF6 /* Preview Content */,
+				C31433A92E34D4520007A5CC /* RTSPPlayerView.swift */,
 			);
-			path = Test;
+			path = VideoCamera;
 			sourceTree = "<group>";
 		};
 		C375F85F2A69370000C8EDF6 /* Preview Content */ = {
@@ -67,24 +85,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D21467B284021471E0A682BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51C19E13E633AAC3E36C8D4C /* Pods-VideoCamera.debug.xcconfig */,
+				602C02A503A8FA2A34A5823B /* Pods-VideoCamera.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C375F8552A6936FE00C8EDF6 /* Test */ = {
+		C375F8552A6936FE00C8EDF6 /* VideoCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C375F8642A69370000C8EDF6 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = C375F8642A69370000C8EDF6 /* Build configuration list for PBXNativeTarget "VideoCamera" */;
 			buildPhases = (
+				035A932731F2C33DA5960044 /* [CP] Check Pods Manifest.lock */,
 				C375F8522A6936FE00C8EDF6 /* Sources */,
 				C375F8532A6936FE00C8EDF6 /* Frameworks */,
 				C375F8542A6936FE00C8EDF6 /* Resources */,
+				6895EB7937F31AA3368A77FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Test;
+			name = VideoCamera;
 			productName = Test;
-			productReference = C375F8562A6936FE00C8EDF6 /* Test.app */;
+			productReference = C375F8562A6936FE00C8EDF6 /* VideoCamera.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C375F8512A6936FE00C8EDF6 /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = C375F8512A6936FE00C8EDF6 /* Build configuration list for PBXProject "VideoCamera" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C375F8552A6936FE00C8EDF6 /* Test */,
+				C375F8552A6936FE00C8EDF6 /* VideoCamera */,
 			);
 		};
 /* End PBXProject section */
@@ -132,13 +161,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		035A932731F2C33DA5960044 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoCamera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6895EB7937F31AA3368A77FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoCamera/Pods-VideoCamera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoCamera/Pods-VideoCamera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoCamera/Pods-VideoCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C375F8522A6936FE00C8EDF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C375F85C2A6936FE00C8EDF6 /* ContentView.swift in Sources */,
-				C375F85A2A6936FE00C8EDF6 /* TestApp.swift in Sources */,
+				C375F85A2A6936FE00C8EDF6 /* VideoCameraApp.swift in Sources */,
+				C31433AA2E34D4520007A5CC /* RTSPPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,12 +337,14 @@
 		};
 		C375F8652A69370000C8EDF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C19E13E633AAC3E36C8D4C /* Pods-VideoCamera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VideoCamera/Preview Content\"";
+				DEVELOPMENT_TEAM = 367A9KWKFL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,22 +357,24 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vanyushais.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanyushais.VideoCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C375F8662A69370000C8EDF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602C02A503A8FA2A34A5823B /* Pods-VideoCamera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VideoCamera/Preview Content\"";
+				DEVELOPMENT_TEAM = 367A9KWKFL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,10 +387,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vanyushais.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanyushais.VideoCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -318,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C375F8512A6936FE00C8EDF6 /* Build configuration list for PBXProject "Test" */ = {
+		C375F8512A6936FE00C8EDF6 /* Build configuration list for PBXProject "VideoCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C375F8622A69370000C8EDF6 /* Debug */,
@@ -327,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C375F8642A69370000C8EDF6 /* Build configuration list for PBXNativeTarget "Test" */ = {
+		C375F8642A69370000C8EDF6 /* Build configuration list for PBXNativeTarget "VideoCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C375F8652A69370000C8EDF6 /* Debug */,

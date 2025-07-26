@@ -1,14 +1,14 @@
 //
-//  TestApp.swift
-//  Test
+//  VideoCameraApp.swift
+//  VideoCamera
 //
-//  Created by Ivan Istomin on 20.07.2023.
+//  Created by Ivan Istomin on 26.07.2025.
 //
 
 import SwiftUI
 
 @main
-struct TestApp: App {
+struct VideoCameraApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
